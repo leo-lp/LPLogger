@@ -47,15 +47,15 @@ class LPMainViewController: UITableViewController {
         case .verbose:
             log.verbose(model.title)
         case .debug:
-            log.verbose(model.title)
+            log.debug(model.title)
         case .info:
-            log.verbose(model.title)
+            log.info(model.title)
         case .warning:
-            log.verbose(model.title)
+            log.warning(model.title)
         case .error:
-            log.verbose(model.title)
+            log.error(model.title)
         case .severe:
-            log.verbose(model.title)
+            log.severe(model.title)
         case .none:
             print("none")
         }
